@@ -39,17 +39,61 @@
                     </div>
                     <div class="user-nav__user">
                         <img src="img/schitiz.jpg" alt="user image" class="user-nav__user-logo">
-                        <span>Schitiz</span>
+                        <span class="user-nav__user-name">Schitiz</span>
                     </div>
                 </nav>
             </header>
             <div class="content">
                 <nav class="sidebar">
-                    navigation sidebar
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg> 
+                                <span>Home</span> 
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg> 
+                                <span>Flight</span> 
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg> 
+                                <span>Car Rental</span> 
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>
+                                </svg> 
+                                <span>Tours</span> 
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="legal">
+                        &copy; 2019 by Trillo. All rights reserved.
+                    </div>
                 </nav>
+
+
                 <main class="hotel-view">
-                    Hotel-view
+                    <div class="gallery">
+                        <figure class="gallery__item"><img src="img/hotel-1.jpg" alt="Photo 1" class="gallery__photo"></figure>
+                        <figure class="gallery__item"><img src="img/hotel-2.jpg" alt="Photo 2" class="gallery__photo"></figure>
+                        <figure class="gallery__item"><img src="img/hotel-3.jpg" alt="Photo 3" class="gallery__photo"></figure>
+                    </div>
                 </main>
+                
             </div>
         </div>
     </body>
