@@ -4,7 +4,6 @@
   "description": "trillo app",
   "main": "index.js",
   "scripts": {
-    "dev": "HOME=./node_modules/.bin/live-server",
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
