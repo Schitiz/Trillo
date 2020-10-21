@@ -1,0 +1,21 @@
+.detail {
+    display: flex;
+    padding: 4.5rem;
+    border-bottom: $line;
+    background-color: $color-grey-light-1;
+}
+
+.description {
+    font-size: 1.3rem;
+    background-color: $color-white;
+    padding: 3rem;
+    flex: 0 0 60%;
+    box-shadow: $box-shadow-light;
+
+    margin-right: 4.5rem;
+}
+
+.user-review {
+    background-color: yellowgreen;
+    flex: 1;
+}
